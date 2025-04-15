@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: w
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"Walk","summary":null,"pan":{"x":-69.79999,"y":-19.2},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Walk","summary":null,"pan":{"x":206.9002,"y":129.7168},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":1.0},"guid":"88146023-e94b-4651-9953-8dd260cce07b","$version":"A","$type":"Unity.VisualScripting.Update","$id":"13"},{"chainable":false,"parameterNames":["translation","relativeTo"],"member":{"name":"Translate","parameterTypes":["UnityEngine.Vector3","UnityEngine.Space"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%translation":{"x":0.1,"y":0.1,"z":0.0,"$type":"UnityEngine.Vector3"},"%relativeTo":{"$content":"Self","$type":"UnityEngine.Space"}},"position":{"x":34.0,"y":179.0},"guid":"434d491a-1d6f-486d-bbc5-49211463752a","$version":"A","$type":"Unity.VisualScripting.InvokeMember"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"target","$type":"System.String"},"object":null},"position":{"x":309.0,"y":4.0},"guid":"cf4fc1e4-5de0-476a-a67f-f721a7b501e2","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"chainable":false,"parameterNames":["target"],"member":{"name":"SetDestination","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.AI.NavMeshAgent","targetTypeName":"UnityEngine.AI.NavMeshAgent","$version":"A"},"defaultValues":{"target":null,"%target":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":69.0,"y":-2.0},"guid":"74109a5e-20ec-434b-beed-4f210df65df7","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"0ae3cff3-bc7e-42fb-9dd0-ef8a438beeb2","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-199.0,"y":-71.0},"width":170.0,"guid":"0565f091-49e6-49f1-ace9-2589c2ca7f96","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
