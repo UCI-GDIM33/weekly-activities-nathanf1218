@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 474231561}
   - component: {fileID: 474231563}
   - component: {fileID: 474231562}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Shiba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,13 +537,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609625875}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.05, z: -2.72}
+  m_LocalRotation: {x: 0.27527213, y: -0.29985768, z: 0.12907319, w: 0.9042404}
+  m_LocalPosition: {x: 1.632, y: 2.625, z: -2.118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 35.116, y: -35.175, z: 4.793}
 --- !u!114 &1609625879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 2
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
